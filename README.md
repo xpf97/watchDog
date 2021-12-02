@@ -8,6 +8,11 @@
 - tophub.today
 - gamersky.com
 
+## Send notification
+
+> using telegram
+> https://github.com/python-telegram-bot/python-telegram-bot
+
 
 ## TODO
 
