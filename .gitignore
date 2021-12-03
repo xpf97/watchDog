@@ -3,5 +3,7 @@
 *.input
 output.*
 intput.*
-output
-input
+./output
+./input
+./config.json
+./test.py

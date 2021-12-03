@@ -5,21 +5,18 @@ import telegram
 from telegram.ext import Updater
 from telegram.ext import CallbackContext
 import logging
+import json
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                      level=logging.INFO)
 
-TOKEN = '1778566006:AAFykoqBUXzZCYxeyB-ZGyVxe10S98NfmSM'
-REQUEST_KWARGS={
-    'proxy_url': 'socks5://127.0.0.1:2080/',
-}
+with open("./config.json") as f:
+    conf= json.load(f)
+TOKEN = conf['telegram']['TOKEN']
+chat_id = conf['telegram']['chat_id']
 
-# updater = Updater(TOKEN, request_kwargs=REQUEST_KWARGS)
 bot = telegram.Bot(token=TOKEN)
 updates = bot.get_updates()
-chat_id = 681868099
-bot.send_message(text='web changed',chat_id=chat_id)
-exit()
 
 proxies = {
         "124.77.82.32:9000",
@@ -29,7 +26,7 @@ HEADERS = {
     # 'X-Requested-With': 'XMLHttpRequest',
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 '
                   '(KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
-    # 'Referer': 'http://www.mzitu.com'
+    # 'Referer': 'http://www.baidu.com'
     # 'cookie'
 }
 
@@ -44,7 +41,7 @@ DIR_PATH = "temp"
 
 url = "https://www.ddrk.me"
 
-# params = {"s":"wd=meizu"}
+# params = {"s":"wd=baidu"}
 # cookies = response.cookies;
 
 history = ""
@@ -56,6 +53,7 @@ while 1:
             time.sleep(10)
         else:
             history = response.text
+            bot.send_message(text='web changed',chat_id=chat_id)
             print("web changed")
-    time.sleep(10)
+    time.sleep(60*10)
 

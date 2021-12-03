@@ -1,21 +1,21 @@
 # Watch DOG
 
-> watch the changes website
+> Watch the changes website
 
-## website
+## Websites
 
-- ddrk.me
-- tophub.today
-- gamersky.com
+- www.ddrk.me
+- www.tophub.today
+- www.gamersky.com
 
 ## Send notification
 
-> using telegram
+> using telegram Bot
 > https://github.com/python-telegram-bot/python-telegram-bot
 
 ## TODO
 
--[x] simple watch changes of website
--[ ]  watch specific changes
--[x] send notification to my email
--[ ] add websites through telegram bot
+- [x] simple watch changes of website
+- [ ]  watch specific changes
+- [x] send notification to my email
+- [ ] add websites through telegram bot
