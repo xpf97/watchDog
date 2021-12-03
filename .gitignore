@@ -1,9 +1,4 @@
-
-*.output
+*.log
 *.input
-output.*
-intput.*
-./output
-./input
-./config.json
-./test.py
+*.output
+config.json
