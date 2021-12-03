@@ -46,6 +46,7 @@ url = "https://www.ddrk.me"
 
 history = ""
 
+bot.send_message(text='start watching...',chat_id=chat_id)
 while 1:
     response=requests.get(url,headers=HEADERS,timeout=10)
     if response.status_code == 200:
