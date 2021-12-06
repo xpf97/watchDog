@@ -19,4 +19,4 @@
 - [ ]  watch specific changes
 - [x] send notification to my email
 - [ ] add websites through telegram bot
-- [ ] add js
+- [ ] what has changed
