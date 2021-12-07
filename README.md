@@ -16,7 +16,8 @@
 ## TODO
 
 - [x] simple watch changes of website
-- [ ]  watch specific changes
+- [ ] watch specific changes
 - [x] send notification to my email
 - [ ] add websites through telegram bot
 - [ ] what has changed
+- [x] docker deploy 
