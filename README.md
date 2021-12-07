@@ -1,6 +1,7 @@
 # Watch DOG
-
 > Watch the changes website
+
+---
 
 ## Websites
 
@@ -10,7 +11,7 @@
 
 ## Send notification
 
-> using telegram Bot
+> using telegram Bot  
 > https://github.com/python-telegram-bot/python-telegram-bot
 
 ## TODO
@@ -19,3 +20,5 @@
 - [ ]  watch specific changes
 - [x] send notification to my email
 - [ ] add websites through telegram bot
+
+---
