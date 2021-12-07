@@ -1,6 +1,7 @@
 # Watch DOG
-
 > Watch the changes website
+
+---
 
 ## Websites
 
@@ -10,7 +11,7 @@
 
 ## Send notification
 
-> using telegram Bot
+> using telegram Bot  
 > https://github.com/python-telegram-bot/python-telegram-bot
 
 ## TODO
@@ -21,3 +22,5 @@
 - [ ] add websites through telegram bot
 - [ ] what has changed
 - [x] docker deploy 
+
+---
